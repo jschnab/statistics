@@ -12,3 +12,5 @@ parsing is performed by "mannwhithney_exact.py".
 
 "generate_MW_table.py" was used to generate the data stored in "table_mw.txt". Computation time becomes very long for sample
 sizes > 11.
+
+"dunn_test.py" performs a Dunn's test (post-hoc non parametric test, can be used in conjonction with Kruskal-Wallis test to pinpoint which group is different from the others). The file was modified from a script found [here](https://gist.github.com/ricardoV94).
