@@ -25,7 +25,7 @@ from scipy.stats import tiecorrect
 
 def MW_exact(a, b, alternative ='two-sided'):
     """
-    Performs a two-sided Mann-Whitney test with two samples.
+    Performs a Mann-Whitney test.
 
     Parameters
     ----------
